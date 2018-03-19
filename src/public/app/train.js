@@ -1,26 +1,4 @@
-/*
-class Train {
-  constructor() {
-    this.name = "Choo Choo";
-    this.speed = 4;
-    this.level = 0;
-  }
-  
-  departing() {
-    return "All Aboard! ";
-  }
-  
-  arriving( ) {
-    return "Now Arriving! ";
-  }
-  
-  get sound() {
-    return "choo choo";
-  }
-  
-}
-*/
-
+// @ts-check
 class Train {
   constructor(data) {
     this.name = data.name;
